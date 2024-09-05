@@ -1,5 +1,7 @@
 Configs steps: 
 
+Configs structure: 
+
 - 1 npm init
 - 2 npm install -D typescript
 - 3 npm install -D @types/node
@@ -12,6 +14,10 @@ Configs steps:
 
 Configs database with knex: 
 
-- 1 npm install knex sqlit3
-- 2 create batabase.ts
-- 3 
+- 1 npm install knex 
+- 2 npm install sqlite3 -D
+- 3 create batabase.ts
+- 4 create root knexfile.ts
+- 5 add to package.json a knex command: "node --no-warnings --import tsx ./node_modules/.bin/knex
+    - 4.1 how to run the above command: npm run knex -- migrate:make create-users
+    
