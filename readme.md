@@ -44,16 +44,17 @@ Project goals:
 
 - [X] create user
 - [X] identify user between requests
-- [] create a meal
+- [X] create a meal
      - description
      - name
      - date and hour
      - is part of diet or not
-- [] edit a meal (all above data)
-- [] delete a meal
-- [] get user metrics: 
+- [X] read all meals from user
+- [X] edit a meal (all above data)
+- [X] delete a meal
+- [X] get user metrics: 
      - amount of registered meals of a user
      - amount of in diet meals
      - amount of out diet meals
      - best sequence of meals in diet
-- [] user just can visualize, edit and delete meals only that he created
+- [X] user just can visualize, edit and delete meals only that he created
