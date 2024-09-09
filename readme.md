@@ -31,18 +31,25 @@ Confis env
 - 6 validade env variables with zod schema
 - 7 handle error
 
+Developments
+
+- 1 separe plugins into files 
+- 2 register plugin on server.ts
+- 3 declare Knex Table module to type tables
+
+
 ------------------------------------------------------
 
 Project goals: 
 
-- [] create user
-- [] identify user between requests
+- [X] create user
+- [X] identify user between requests
 - [] create a meal
      - description
      - name
      - date and hour
      - is part of diet or not
-- [] edit a meal
+- [] edit a meal (all above data)
 - [] delete a meal
 - [] get user metrics: 
      - amount of registered meals of a user
