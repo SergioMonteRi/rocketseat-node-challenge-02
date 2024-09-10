@@ -37,6 +37,18 @@ Developments
 - 2 register plugin on server.ts
 - 3 declare Knex Table module to type tables
 
+Tests
+
+- 1 npm install vitest
+- 2 npm install supertest 
+- 3 create .spec.ts files
+- 4 before all app.ready
+- 5 after all app.close
+- 6 before each execSync npm run knex migrage:rollback --all
+- 7 before each execSync npm run knex migrate:latest
+- 8 create env.test
+- 9 verify process.env.NODE_ENV to use config env method and set path to .env.test
+
 
 ------------------------------------------------------
 
